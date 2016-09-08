@@ -1,0 +1,3 @@
+include/linux/syscalls.h define the syscall
+arch/arm/kernel/calls.s add the entry of syscall
+arch/arm/include/asm/unistd.h add the call number
