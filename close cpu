@@ -1,0 +1,5 @@
+/sys/devices/system/cpu下有cpu0,cpu1等文件夹,每个文件夹里面有online文件，向online中写0关闭cpu,写1开启
+echo '0' > /sys/devices/system/cpu/cpu1/online
+操作需要su用户执行
+
+grub 启动参数中加maxcpus=X设置系统使用的CPU个数
